@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar style*/
+
+/*brand style*/
+.brand-text {
+  color: black;
+}
+
+/*nav link style*/
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.nav-link:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: -40px;
+}
+
+.btn-search {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: 50;
+    border-radius: 60px;
+    
+}
+
+/*hero caroussel style*/
+.main {
+  background:url(./Prox_Banner.webp)no-repeat;
+  background-size:cover;
+  width: 100%;
+  padding: 98px;
+  height: 80vh; 
+  background-position: 50% 98px ;
+}
+.hero-caption {
+  font-family: sans-serif;
+}
+.cat {
+  width: 3rem;
+  margin: 10px 0;
+}
+.cat-text:hover {
+  text-decoration: underline;
+  color: #444;
+}
+.product-text {
+color: black;
+}
+.product-text:hover {
+  color: #333;
+}
+.card:hover {
+  box-shadow: 0px 2px 33px 7px rgba(0,0,0,0.54);
+  -webkit-box-shadow: 0px 2px 33px 7px rgba(0,0,0,0.54);
+  -moz-box-shadow: 0px 2px 33px 7px rgba(0,0,0,0.54);
+
+  transition: 0.5s;
+}

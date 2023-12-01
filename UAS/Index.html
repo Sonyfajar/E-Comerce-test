@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Navbar Mulai-->
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-light p-3 shadow ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            class="d-inline-block align-text-bottom"
+            width="40"
+            src="https://cdn-icons-png.flaticon.com/128/3168/3168404.png"
+            alt=""
+          />
+          <h1 class="fw-bold d-inline-block brand-text">
+            TT'<sup>s</sup><span class="h3">RnD</span>
+          </h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <!--Default Hamburger scroll id id="navbarScroll for ^ line"-->
+          <ul class="navbar-nav m-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" href="#">beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">tentang</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#populer">Populer</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                produk
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Karburator</a></li>
+                <li><a class="dropdown-item" href="#">Gear Set</a></li>
+                <li><a class="dropdown-item" href="#">Pengereman</a></li>
+                <li><a class="dropdown-item" href="#">Bearing</a></li>
+                <!--dropdown divider
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+                -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Kontak</a>
+            </li>
+          </ul>
+          <div class="">
+            <form class="d-flex" role="search">
+              <input
+                class="px-2 search shadow"
+                type="search"
+                placeholder="Cari disini!"
+                aria-label="Search"
+              />
+              <button
+                class="shadow btn btn-outline-warning fw-bolder btn-search"
+                type="submit"
+              >
+                Telusuri
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+    <!--Navbar End-->
+    <!--Hero Start-->
+    <section class="main">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-lg-7 pt-5 ">
+            <h1 class="fw-bolder display-3 text-black hero-caption">Find The best Part for your Bike</h1>
+            <a href="#" class="btn btn-dark">Belanja Sekarang!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hero End-->
+    <!--Category Start-->
+    <section class="category">
+      <div class="container py-3">
+        <div class="row pt-5">
+          <div class="col-lg-7 m-auto">
+          <div class="row justify-content-between text-center ">
+            <div class="col-lg-2 my-3">
+                <a href="" class="text-decoration-none text-dark">
+                <img class="cat" src="https://cdn-icons-png.flaticon.com/128/484/484613.png" alt="">
+                <h6 class="h6 fw-bold cat-text">Chain and Gear</h6>
+              </a>
+              </div>
+            <div class="col-lg-2 my-3 ">
+              <a href="" class="text-decoration-none text-dark">
+              <img class="cat" src="https://cdn-icons-png.flaticon.com/128/2557/2557020.png" alt="">
+              <h6 class="h6 fw-bold cat-text">Brake System</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 my-3 ">
+              <a href="" class="text-decoration-none text-dark">
+                <img class="cat" src="https://cdn-icons-png.flaticon.com/128/2416/2416992.png" alt="">
+                <h6 class="h6 fw-bold cat-text">Carburetor</h6>
+              </a>
+            </div>
+            <div class="col-lg-2 my-3 ">
+                <a href="" class="text-decoration-none text-dark">
+                <img class="cat" src="https://cdn-icons-png.flaticon.com/128/4257/4257496.png" alt="">
+                <h6 class="h6 fw-bold cat-text">Bearings</h6>
+              </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Category end-->
+    <!--Populer start-->
+    <section class="product">
+      <div class="container align-content-between">
+        <div id="populer" class="row">
+        <div class="col-lg-10 py-5 m-auto text-center ">
+              <h1 class="display-3 fw-bolder mb-4">Yang lagi Populer !</h1>
+              <h6 class="border rounded-4 p-2 text-white bg-dark">Buat motor kesayangan</h6>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 text-center my-5">
+            <a href="" class="text-decoration-none product-text">
+              <div class="mb-2 card border-0 bg-light align-items-center d-flex h-100 w-100 ">
+                <div class="card-body d-flex">
+                  <img  style="width:70%;" src="./assets/Products/Ride_it_PE-removebg-preview.png" alt="" class="img-fluid m-auto">
+                </div>
+              </div>
+              <div class="container mb-5">
+              <h6>RIDE IT PE 28</h6>
+              <p>Rp.250.000</p>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center my-5">
+            <a href="" class="text-decoration-none product-text">
+              <div class="mb-2 card border-0 bg-light align-items-center d-flex h-100 w-100 ">
+                <div class="card-body d-flex">
+                  <img src="./assets/Products/cpo_pwk-removebg-preview.png" alt="" class="img-fluid m-auto">
+                </div>
+              </div>
+              <div class="container mb-5">
+              <h6>CPO PWK 28</h6>
+              <p>Rp.320.000</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 text-center my-5">
+            <a href="" class="text-decoration-none product-text">
+              <div class="mb-2 card border-0 bg-light align-items-center d-flex h-100 w-100 ">
+                <div class="card-body d-flex">
+                  <img  style="width:70%;" src="./assets/Raw Image/sss 415 hsbt.webp" alt="" class="img-fluid m-auto">
+                </div>
+              </div>
+              <div class="container mb-5">
+                <h6>SSS 415 120L HSBT</h6>
+                <p>Rp.210.000</p>
+              </div>
+            </a>
+          </div>
+          <div class="my-5 col-lg-3 text-center">
+            <a href="" class="text-decoration-none product-text">
+              <div class="mb-2 card border-0 bg-light align-items-center d-flex h-100 w-100 ">
+                <div class="card-body d-flex">
+                  <img src="./assets/Products/Faito_Cast_Piston-removebg-preview.png" alt="" class="img-fluid m-auto">
+                </div>
+              </div>
+              <div class="container mb-5">
+              <h6 >FAITO Cast Piston 53.5mm</h6>
+              <p>Rp.297.000</p>
+            </div>
+            </a>
+          </div>
+        </div>  
+        <!--card-->
+        <div class="row mt-5">
+          <div class="col-lg-6 text-center m-auto mt-5">
+            <a class="btn btn-dark" href="#">Lainnya</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Populer end-->
+    <!--footer start-->
+    <container class="contact">
+      <div class="bg-dark mt-5 p-5">
+        <div class="row text-white">
+          <div class="col-lg-5">
+            <h1>Contact Us!</h1>
+            <h6>Hubngi kami untuk info lebih lanjut!</h6>
+         
+          
+            <h6>No.Telp</h6>
+            <p>081234567890</p>
+       
+          
+            <h6>Email</h6>
+            <p>muhammadtaraanugrah@gmail.com</p>
+
+          </div>
+        </div>
+      </div>
+    </container>
+    <!--footer-end-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </body>
+</html>
